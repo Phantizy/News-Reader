@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2175F3"
+    tools:context=".ItemActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:textSize="24sp"
+            android:text="Item title"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/pubDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
+            android:paddingTop="5dp"
+            android:text="Published: Tues 15 Sept 2015"/>
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
+            android:paddingTop="5dp"
+            android:text="Item Description"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/linkTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="7dp"
+            android:paddingTop="5dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Read more on the web"
+            android:textColor="#C0C0C0"/>
+
+    </LinearLayout>
+
+</ScrollView>
